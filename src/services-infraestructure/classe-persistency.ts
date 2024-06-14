@@ -2,6 +2,6 @@ import { PersistencyProtocol } from '../classes/interfaces-protocolos/persistenc
 
 export class Persistency implements PersistencyProtocol {
   saveOrder(): void {
-    console.log('Pedido salvo com sucesso');
+    console.log('Pedido salvo com sucesso...');
   }
 }
