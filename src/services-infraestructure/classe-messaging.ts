@@ -2,6 +2,6 @@ import { MensagemProtocol } from '../classes/interfaces-protocolos/mensagem-prot
 
 export class Messaging implements MensagemProtocol {
   sendMessage(msg: string): void {
-    console.log(msg);
+    console.log('Mensagem enviada:', msg);
   }
 }
